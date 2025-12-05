@@ -1,5 +1,3 @@
-/* FairTeilen Website Styles - Dark & Professional Theme */
-
 * {
     margin: 0;
     padding: 0;
@@ -17,6 +15,7 @@ body {
 }
 
 /* Header */
+
 header {
     background: #2d3748;
     padding: 2rem 0;
@@ -42,6 +41,7 @@ header {
 }
 
 /* Container */
+
 .container {
     max-width: 900px;
     margin: 0 auto;
@@ -49,6 +49,7 @@ header {
 }
 
 /* Main Content */
+
 main {
     flex: 1;
     padding: 4rem 0;
@@ -110,6 +111,16 @@ a:hover {
     text-decoration: underline;
 }
 
+a:has(img.medium-badge):hover {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+a:has(img.download-cta-badge):hover {
+    text-decoration: none; 
+    color: inherit; 
+}
+
 .subtitle {
     color: #a0aec0;
     font-size: 1rem;
@@ -119,10 +130,63 @@ a:hover {
 .content-section {
     border-left: 3px solid #63b3ed;
     padding-left: 1.5rem;
-    margin-bottom: 2rem;
+}
+
+/* Download Call to Action Highlight */
+
+.download-cta {
+    text-align: center; 
+    background-color: #2d3748;
+    border-radius: 12px;
+    border-left: none; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.download-cta .download-text {
+    font-size: 1.15rem;
+    color: #a0aec0;
+	margin: 0rem auto 0.5rem auto;
+}
+
+.download-cta-badge {
+    height: 80px;
+    width: auto;
+    display: block; 
+    margin: 1.5rem auto 0.5rem auto;
+}
+
+.medium-badge {
+    height: 80px;
+    width: auto;
+}
+
+/* Contact Information Box Styles */
+
+.contact-box {
+    background: #2d3748; 
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.contact-text {
+    margin: 0; 
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.contact-link {
+    color: #63b3ed;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    color: #90cdf4;
+    text-decoration: underline;
 }
 
 /* Footer */
+
 footer {
     background: #2d3748;
     padding: 2rem 0;
@@ -167,6 +231,7 @@ footer {
 }
 
 /* Responsive Design */
+
 @media (max-width: 768px) {
     .logo {
         font-size: 2.25rem;
