@@ -1,263 +1,248 @@
 <!DOCTYPE html>
 <html lang="de">
+    <head>
+        <meta charset="utf-8">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Gemeinsame Kosten aufteilen und abrechnen — Ohne Konto. Ohne Abo. Die private Lösung für Paare, Haushalte, WGs, Familien, Reisegruppen und Freunde.">
+        <meta name="keywords" content="ausgaben teilen, kosten splitten, abrechnung wg, haushaltsbuch, miete teilen, urlaubskasse, private ausgaben app, offline ausgabenmanager, monatliche fixkosten, urlaubskosten, reisekosten">
 
-    <title>FairTeilen | Haushalt & WG: Ausgaben splitten und Abrechnungen verwalten</title>
-    <meta name="description"
-        content="Die private App zur Kostenaufteilung für Paare, WGs und Reisegruppen. 100% lokal auf deinem Gerät. Ohne Anmeldung, ohne Server, ohne Tracking.">
-    <meta name="keywords"
-        content="ausgaben teilen, rechnung splitten, wg abrechnung, haushaltsbuch, miete teilen, urlaubskasse, private ausgaben app, offline ausgabenmanager, monatliche fixkosten">
+        <meta property="og:title" content="FairTeilen | Private App zum Ausgaben-Splitten und Abrechnungen verwalten">
+        <meta property="og:description" content="Gemeinsame Kosten aufteilen und abrechnen — Ohne Konto. Ohne Abo. Die private Lösung für Paare, Haushalte, WGs, Familien, Reisegruppen und Freunde.">
+        <meta property="og:url" content="https://www.progressive-bytes.com/fairteilen/">
+        <meta property="og:type" content="website">
 
-    <meta property="og:title" content="FairTeilen | Private App zum Ausgaben-Splitten">
-    <meta property="og:description"
-        content="Rechnungen teilen und Ausgaben privat verwalten. Keine Accounts, keine Server, alle Daten bleiben auf deinem Gerät.">
-    <meta property="og:url" content="https://www.progressive-bytes.com/fairteilen/">
-    <meta property="og:type" content="website">
+        <title>FairTeilen | Gemeinsame Kosten aufteilen und abrechnen — Ohne Konto. Ohne Abo. Die private Lösung für Paare, Haushalte, WGs, Familien, Reisegruppen und Freunde.</title>
 
-    <link rel="alternate" hreflang="de" href="https://www.progressive-bytes.com/fairteilen/"/>
-    <link rel="alternate" hreflang="en-GB" href="https://www.progressive-bytes.com/settleasy/gb/"/>
-    <link rel="alternate" hreflang="en-US" href="https://www.progressive-bytes.com/settleasy/"/>
-    <link rel="alternate" hreflang="x-default" href="https://www.progressive-bytes.com/settleasy/"/>
-    <link rel="canonical" href="https://www.progressive-bytes.com/fairteilen/">
+        <link rel="alternate" hreflang="de" href="https://www.progressive-bytes.com/fairteilen/">
+        <link rel="alternate" hreflang="en-GB" href="https://www.progressive-bytes.com/settleasy/gb/">
+        <link rel="alternate" hreflang="en-US" href="https://www.progressive-bytes.com/settleasy/">
+        <link rel="alternate" hreflang="x-default" href="https://www.progressive-bytes.com/settleasy/">
+        <link rel="canonical" href="https://www.progressive-bytes.com/fairteilen/">
 
-    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+        <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 
-    <link rel="stylesheet" href="styles/theme.css">
-    <link rel="stylesheet" href="styles/shared/style.css">
+        <link rel="stylesheet" href="styles/theme.css">
+        <link rel="stylesheet" href="styles/shared/style.css">
 
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "FairTeilen",
-      "operatingSystem": "iOS, iPadOS, macOS",
-      "applicationCategory": "FinanceApplication",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "5.0",
-        "ratingCount": "1"
-      },
-      "description": "FairTeilen ist der ultimative private Tracker, um genau zu berechnen, wer wem was schuldet. Perfekt für Paare, WGs und Reisegruppen mit 100% lokaler Speicherung."
-    }
-    </script>
-</head>
-
-<body>
-    <header>
-        <div class="container">
-            <div class="header-content">
-                <a href="./" class="logo-link">
-                    <img src="images/AppIcon.webp" alt="FairTeilen Icon" class="nav-icon" width="48" height="48">
-                    <div class="brand-text">
-                        <span class="brand-name">FairTeilen</span>
-                        <span class="tagline">Haushalt & WG: Ausgaben splitten und Abrechnungen verwalten &mdash; Privat. Lokal. Präzise.</span>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div class="container">
-            <h1>Rechnungen splitten & Ausgaben privat teilen</h1>
-            <p class="subtitle">Der ultimative Tracker für Paare, WGs, Reisegruppen und Freunde.</p>
-
-            <div class="hero-visual-double">
-                <div class="screenshot-wrapper primary">
-                    <img src="images/Settlements.webp" alt="FairTeilen Abrechnungsliste" class="app-screenshot">
-                </div>
-                <div class="screenshot-wrapper secondary">
-                    <img src="images/SettlementItems.webp" alt="FairTeilen Abrechnungsposten" class="app-screenshot">
-                </div>
-            </div>
-
-            <section class="no-divider">
-                <p><strong>Schluss mit dem Tabellenchaos.</strong> FairTeilen ist die private App zur Kostenaufteilung,
-                    um gemeinsame Ausgaben zu verwalten, ohne deine Daten preiszugeben. Es berechnet präzise, wer wem was schuldet —
-                    mit null Accounts, null Servern und null Daten, die dein Gerät verlassen.</p>
-                <p>Ob du monatliche Haushaltsausgaben verwaltest, einen Wochenendtrip planst oder die Rechnung beim Abendessen
-                    aufteilst, FairTeilen übernimmt die Komplexität und liefert dir sofort genaue Salden.
-                </p>
-            </section>
-
-            <section class="download-cta">
-                <div class="download-cta-box">
-                    <p class="download-text">Keine Lust auf Kontozwang? Erfasse deine Ausgaben jetzt auf die private Art.
-                    </p>
-                    <a href="https://apps.apple.com/de/app/fairteilen/id6747769253" target="_blank" rel="noopener">
-                        <img src="images/Download_on_the_App_Store_Badge_DE_RGB_blk_092917.svg"
-                            alt="Laden im App Store" class="download-cta-badge">
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "FairTeilen",
+            "operatingSystem": "iOS, iPadOS, macOS",
+            "applicationCategory": "FinanceApplication",
+            "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "EUR"
+            },
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5.0",
+                "ratingCount": "1"
+            },
+            "description": "Gemeinsame Kosten aufteilen und abrechnen — Ohne Konto. Ohne Abo. Die private Lösung für Paare, Haushalte, WGs, Familien, Reisegruppen und Freunde."
+        }
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="header-content">
+                    <a href="./" class="logo-link">
+                        <img src="images/AppIcon.webp" alt="FairTeilen Icon" class="nav-icon" width="48" height="48">
+                        <div class="brand-text">
+                            <span class="brand-name">FairTeilen</span>
+                            <span class="tagline">Gemeinsame Kosten aufteilen und abrechnen — Ohne Konto. Ohne Abo.</span>
+                        </div>
                     </a>
                 </div>
-            </section>
-
-            <section>
-                <h2>Perfekt für die Kostenaufteilung in der Gruppe</h2>
-                <ul>
-                    <li><strong>Paare</strong>, die monatliche Haushaltsrechnungen und gemeinsame Kosten fair verwalten.</li>
-                    <li><strong>WGs</strong>, die in ihrer Wohngemeinschaft Miete, Nebenkosten und Einkäufe abrechnen.</li>
-                    <li><strong>Reisegruppen</strong>, die Urlaubskosten und Ausgaben in mehreren Währungen verwalten.
-                    </li>
-                    <li><strong>Familien</strong>, die gemeinsame Ausgaben, Kosten und Einnahmen tracken.</li>
-                    <li><strong>Freunde</strong>, die Urlaubskosten, Abendessen und Gruppenaktivitäten abrechnen.</li>
-                </ul>
-            </section>
-
-            <section class="feature-block">
-                <div class="feature-header">
-                    <h2>Intelligente Abrechnungen</h2>
-                    <p>Erstelle eine Abrechnung, füge Posten  hinzu und lass FairTeilen rechnen.</p>
-                </div>
-
-                <div class="feature-split">
-                    <div class="feature-text">
-
-                        <h3>Flexible Anteile</h3>
-                        <p>Lege fest, wie Kosten aufgeteilt werden: gleichmäßig, nach Prozentsätzen oder genauen Beträgen. Ein
-                            Teilnehmer zahlt
-                            70%? Ein anderer 30%? Erledigt.</p>
-
-                        <h3>Wer hat was bezahlt?</h3>
-                        <p>Erfasse Zahlungen für jede Ausgabe. Alice hat 50 € bezahlt, Bob 150 € für ein 200 € Abendessen? Füge
-                            beide
-                            Beiträge hinzu und die App berechnet den Saldo automatisch.</p>
-
-                        <h3>Automatischer Saldo</h3>
-                        <p>Sieh sofort, wer wem was schuldet, basierend auf vereinbarten Anteilen versus tatsächlichen Zahlungen. Kein
-                            Kopfrechnen, keine
-                            Diskussionen.</p>
-
-                        <h3>Ausgleichszahlungen</h3>
-                        <p>Erfasse Zahlungen zwischen Teilnehmern, um Salden auszugleichen. Beobachte, wie Schulden auf null sinken,
-                            wenn du abrechnest.</p>
-                    </div>
-                    <div class="feature-image">
-                        <img src="images/SettlementBalances.webp" alt="FairTeilen Abrechnungssalden Ansicht"
-                            class="app-screenshot">
-                    </div>
-                </div>
-            </section>
-
-            <section>
-                <h2>Organisiert & Intuitiv</h2>
-                <ul>
-                    <li><strong>Teilnehmer</strong> - Personen mit Namen und optionalen Fotos hinzufügen.</li>
-                    <li><strong>Gruppieren & Sortieren</strong> - Organisiere Abrechnungen und Posten genau so, wie du möchtest.
-                    </li>
-                    <li><strong>Löschen rückgängig machen</strong> - Versehentlich gelöscht? Sofort wiederherstellen.</li>
-                    <li><strong>Plattform-Support</strong> - Nativ auf iPhone, iPad und Apple Silicon Macs.</li>
-                </ul>
-            </section>
-
-
-            <section class="feature-block">
-                <div class="feature-header">
-                    <h2>Für den Alltag gemacht</h2>
-                    <p>FairTeilen übernimmt die mühsamen Details der gemeinsamen Finanzen, damit du es nicht tun musst.</p>
-                </div>
-
-                <div class="feature-split reverse">
-                    <div class="feature-text">
-                        <h3>Mehrere Währungen</h3>
-                        <p>Ideal für den Urlaub. Erstelle deine Abrechnung in EUR, während du Ausgaben in USD, JPY oder jeder anderen
-                            Währung hinzufügst. Gib
-                            Wechselkurse ein, um gezahlte Beträge in deine Basiswährung umzurechnen.</p>
-
-                        <h3>Einnahmen & Ausgaben zusammen</h3>
-                        <p>Rückerstattungen oder gemeinsame Einnahmen erhalten? Füge sie derselben Abrechnung hinzu. FairTeilen
-                            verrechnet
-                            Einnahmen korrekt in deiner Bilanz.</p>
-
-                        <h3>Abrechnungen duplizieren</h3>
-                        <p>Monatliche Fixkosten? Halte eine Abrechnung gedrückt, um sie samt Teilnehmern, Anteilen
-                            und Posten sofort zu kopieren. Kein mühsames Neuerstellen.</p>
-
-                        <h3>Flexibler Datenaustausch</h3>
-
-                        <p>Exportiere deine Abrechnungen, um Backups zu erstellen oder sie mit anderen 
-                        Teilnehmern zu teilen. Der intelligente Import lässt dir die Wahl, ob du 
-                        Abrechnungen überspringen, ersetzen oder als neue Kopie hinzufügen möchtest – 
-                        dabei werden vorhandene Teilnehmer automatisch erkannt.</p>
-                    </div>
-
-                    <div class="feature-image">
-                        <img src="images/PaymentContributions.webp" alt="FairTeilen Zahlungsbeiträge"
-                            class="app-screenshot">
-                    </div>
-                </div>
-            </section>
-
-            <section class="feature-block trust-statement">
-                <div class="container-small">
-                    <h2>Privatsphäre by Design</h2>
-                    <p class="emphasized"><strong>100% Lokal. 100% Privat. 100% Deins.</strong></p>
-                    <p>FairTeilen speichert alles auf deinem Gerät. Es gibt keine Konten, keine Server und keine
-                        Datenübertragung. Deine Finanzinformationen verlassen niemals dein iPhone, iPad oder Mac.</p>
-                    <p>Du verwaltest die Abrechnungen selbst — Teilnehmer benötigen die App nicht und werden nicht getrackt. Es sind
-                        deine Daten. Perfekt für alle, die Wert auf Datenschutz legen oder offline arbeiten müssen.</p>
-                </div>
-            </section>
-
-
-            <section>
-                <h2>Pro-Funktionen</h2>
-                <p><strong>Kostenlos:</strong> Bis zu drei Abrechnungen gleichzeitig verwalten — perfekt zum Testen oder für den gelegentlichen Gebrauch.</p>
-                <p><strong>Pro (Einmalkauf):</strong> Unbegrenzte Abrechnungen, Familienfreigabe inklusive und alle
-                    zukünftigen Pro-Funktionen enthalten. Ein Kauf für die ganze Familie.</p>
-            </section>
-
-            <section>
-                <h2>Warum FairTeilen wählen?</h2>
-                <p>Im Gegensatz zu anderen Apps zur Kostenaufteilung, die Accounts erfordern und Daten mit Servern teilen,
-                    funktioniert FairTeilen komplett offline. Du trackst Ausgaben, berechnest Salden und gleichst Zahlungen aus — alles ohne
-                    deine Finanzinformationen Dritten offenzulegen.</p>
-                <p>Ideal für die Haushaltskasse mit dem Partner, die WG-Abrechnung mit Mitbewohnern oder die
-                    Urlaubskasse mit Freunden, wenn Datenschutz und Präzision zählen.</p>
-            </section>
-
-            <div class="final-cta">
-                <a href="https://apps.apple.com/de/app/fairteilen/id6747769253" target="_blank" rel="noopener">
-                    <img src="images/Download_on_the_App_Store_Badge_DE_RGB_blk_092917.svg" alt="Laden im App Store"
-                        class="download-cta-badge">
-                </a>
             </div>
-        </div>
-    </main>
+        </header>
+        <main>
+            <div class="container">
+                <h1>Abrechnungen und Ausgaben teilen</h1>
+                <p class="subtitle">Einfaches Splitten von Kosten für Paare, Haushalte, WGs und Reisegruppen.</p>
 
-   <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-links">
-                    <a href="./" class="active">Startseite</a>
-                    <a href="privacy">Datenschutz</a>
-                    <a href="contact">Kontakt</a>
-                </div>
-               <details class="language-selector">
-                    <summary class="language-button">
-                        <span class="current-language">Deutsch</span>
-                        <span class="language-arrow">▼</span>
-                    </summary>
-                    <div class="language-menu">
-                        <a href="https://www.progressive-bytes.com/settleasy/" hreflang="en-US" class="language-option">English (US)</a>
-                        <a href="https://www.progressive-bytes.com/settleasy/gb/" hreflang="en-GB" class="language-option">English (GB)</a>
-                        <span class="language-option active current">Deutsch</span>
+                <div class="hero-visual-double">
+                    <div class="screenshot-wrapper primary">
+                        <img src="images/Settlements.webp" alt="FairTeilen Abrechnungsliste" class="app-screenshot">
                     </div>
-                </details>
-            </div>
-            <div class="footer-copyright">
-                <p>&copy; 2025-2026 Progressive Bytes. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-</body>
+                    <div class="screenshot-wrapper secondary">
+                        <img src="images/SettlementItems.webp" alt="FairTeilen Abrechnungsposten" class="app-screenshot">
+                    </div>
+                </div>
 
+                <section class="no-divider">
+                    <p><strong>Schluss mit dem Tabellenchaos.</strong> FairTeilen ist die private App zur Kostenaufteilung,
+                        um gemeinsame Ausgaben und Einnahmen zu verwalten und abzurechnen, ohne deine Daten preiszugeben. FairTeilen berechnet präzise, wer wem was schuldet —
+                        ohne Konto, ohne Abo und ohne dass Daten dein Gerät verlassen.</p>
+                    <p>Ob du monatliche Haushaltsausgaben verwaltest, einen Wochenendtrip planst, die Rechnung beim Abendessen
+                        aufteilst oder eine Betriebskostenrückerstattung erhältst, FairTeilen übernimmt die Komplexität und liefert dir sofort genaue Salden.
+                    </p>
+                </section>
+
+                <section class="download-cta">
+                    <div class="download-cta-box">
+                        <p class="download-text">Keine Lust auf Konto- oder Abozwang? Erfasse deine Ausgaben jetzt auf die private Art.
+                        </p>
+                        <a href="https://apps.apple.com/de/app/fairteilen/id6747769253" target="_blank" rel="noopener">
+                            <img src="images/Download_on_the_App_Store_Badge_DE_RGB_blk_092917.svg"
+                                alt="Laden im App Store" class="download-cta-badge">
+                        </a>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Perfekt für die Kostenaufteilung in der Gruppe</h2>
+                    <ul>
+                        <li><strong>Paare</strong>, die monatliche Haushaltsrechnungen und gemeinsame Kosten fair verwalten</li>
+                        <li><strong>WGs</strong>, die in ihrer Wohngemeinschaft Miete, Nebenkosten und Einkäufe abrechnen</li>
+                        <li><strong>Reisegruppen</strong>, die Urlaubskosten und Ausgaben in mehreren Währungen verwalten</li>
+                        <li><strong>Familien</strong>, die gemeinsame Ausgaben, Kosten und Einnahmen tracken</li>
+                        <li><strong>Freunde</strong>, die Urlaubskosten, Abendessen und Gruppenaktivitäten abrechnen</li>
+                    </ul>
+                </section>
+
+                <section class="feature-block">
+                    <div class="feature-header">
+                        <h2>Intelligente Abrechnungen</h2>
+                        <p>Erstelle eine Abrechnung, füge Posten  hinzu und lass FairTeilen rechnen.</p>
+                    </div>
+
+                    <div class="feature-split">
+                        <div class="feature-text">
+                            <h3>Flexible Anteile</h3>
+                            <p>Lege fest, wie Kosten aufgeteilt werden: gleichmäßig, nach Prozentsätzen oder genauen Beträgen. Ein
+                                Teilnehmer zahlt 70%? Ein anderer 30%? Erledigt.</p>
+
+                            <h3>Wer hat was bezahlt?</h3>
+                            <p>Erfasse Zahlungen für jede Ausgabe. Alice hat 50 € bezahlt, Bob 150 € für ein 200 € Abendessen? Füge
+                                beide Beiträge hinzu und die App berechnet den Ausgleich für dich.</p>
+
+                            <h3>Automatischer Saldo</h3>
+                            <p>Sieh sofort, wer wem was schuldet, basierend auf vereinbarten Anteilen versus tatsächlichen Zahlungen. Kein
+                                Kopfrechnen, keine Diskussionen.</p>
+
+                            <h3>Ausgleichszahlungen</h3>
+                            <p>Erfasse Zahlungen zwischen Teilnehmern, um Salden auszugleichen. Beobachte, wie Schulden auf null sinken,
+                                wenn du abrechnest.</p>
+                        </div>
+                        <div class="feature-image">
+                            <img src="images/SettlementBalances.webp" alt="FairTeilen Abrechnungssalden Ansicht"
+                                class="app-screenshot">
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Organisiert & Intuitiv</h2>
+                    <ul>
+                        <li><strong>Teilnehmer</strong> - Personen mit Namen und optionalen Fotos hinzufügen</li>
+                        <li><strong>Gruppieren & Sortieren</strong> - Organisiere Abrechnungen und Posten genau so, wie du möchtest</li>
+                        <li><strong>Löschen rückgängig machen</strong> - Versehentlich gelöscht? Sofort wiederherstellen</li>
+                        <li><strong>Plattform-Support</strong> - Nativ auf iPhone, iPad und Apple Silicon Macs</li>
+                    </ul>
+                </section>
+
+                <section class="feature-block">
+                    <div class="feature-header">
+                        <h2>Für den Alltag gemacht</h2>
+                        <p>FairTeilen übernimmt die mühsamen Details der gemeinsamen Finanzen für dich.</p>
+                    </div>
+
+                    <div class="feature-split reverse">
+                        <div class="feature-text">
+                            <h3>Mehrere Währungen</h3>
+                            <p>Ideal für den Urlaub. Erstelle deine Abrechnung in EUR, während du Ausgaben in USD, JPY oder jeder anderen
+                                Währung hinzufügst. Gib
+                                Wechselkurse ein, um gezahlte Beträge in deine Basiswährung umzurechnen.</p>
+
+                            <h3>Abrechnungen duplizieren</h3>
+                            <p>Monatliche Fixkosten? Halte eine Abrechnung gedrückt, um sie samt Teilnehmern, Anteilen
+                                und Posten sofort zu kopieren. Kein mühsames Neuerstellen.</p>
+
+                            <h3>PDF-Berichte</h3>
+                            <p>Erstelle von deinen Abrechnungen auf Knopfdruck professionelle PDF-Berichte für eine klare und übersichtliche Dokumentation. Teile diese mit anderen Teilnehmern – z. B. per E-Mail oder Messenger – oder speichere sie lokal zur Archivierung.</p>
+
+                            <h3>Flexibler Datenaustausch</h3>
+                            <p>Exportiere deine Abrechnungen, um Backups zu erstellen oder sie mit anderen 
+                            Teilnehmern zu teilen. Der intelligente Import lässt dir die Wahl, ob du 
+                            Abrechnungen überspringen, ersetzen oder als neue Kopie hinzufügen möchtest.</p>
+                        </div>
+
+                        <div class="feature-image">
+                            <img src="images/PdfReport.webp" alt="FairTeilen PDF-Bericht"
+                                class="app-screenshot">
+                        </div>
+                    </div>
+                </section>
+
+                <section class="feature-block trust-statement">
+                    <div class="container-small">
+                        <h2>Privatsphäre by Design</h2>
+                        <p class="emphasized"><strong>100% Lokal. 100% Privat. 100% Deins.</strong></p>
+                        <p>FairTeilen speichert alles auf deinem Gerät. Es gibt keine Konten, keine Server und keine
+                            Datenübertragung. Deine Informationen verlassen niemals dein iPhone, iPad oder Mac.</p>
+                        <p>Du verwaltest die Abrechnungen selbst — Teilnehmer benötigen die App nicht und werden nicht getrackt. Es sind
+                            deine Daten. Perfekt für alle, die Wert auf Datenschutz legen oder offline arbeiten müssen.</p>
+                    </div>
+                </section>
+
+
+                <section>
+                    <h2>Pro-Funktionen</h2>
+                    <ul>
+                        <li><strong>Unbegrenzte Abrechnungen</strong> (kostenlos: bis zu drei Abrechnungen gleichzeitig)</li>
+                        <li><strong>Wasserzeichenfreie PDF-Berichte</strong> (kostenlos: PDF-Berichte mit Wasserzeichen)</li>
+                        <li><strong>Zukünftige Pro-Funktionen inklusive</strong></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Warum FairTeilen wählen?</h2>
+                    <p>Im Gegensatz zu anderen Apps zur Kostenaufteilung, die Konten oder Abos erfordern und Daten mit Servern teilen,
+                        funktioniert FairTeilen komplett offline und ohne Registrierungszwang. Du trackst Ausgaben, berechnest Salden und gleichst Zahlungen aus — alles ohne
+                        deine Informationen Dritten offenzulegen.</p>
+                    <p>Ideal für die Haushaltskasse mit dem Partner, die WG-Abrechnung mit Mitbewohnern oder die
+                        Urlaubskasse mit Freunden, wenn Datenschutz und Präzision zählen.</p>
+                </section>
+
+                <div class="final-cta">
+                    <a href="https://apps.apple.com/de/app/fairteilen/id6747769253" target="_blank" rel="noopener">
+                        <img src="images/Download_on_the_App_Store_Badge_DE_RGB_blk_092917.svg" alt="Laden im App Store"
+                            class="download-cta-badge">
+                    </a>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-links">
+                        <a href="./" class="active">Startseite</a>
+                        <a href="privacy">Datenschutz</a>
+                        <a href="contact">Kontakt</a>
+                    </div>
+                <details class="language-selector">
+                        <summary class="language-button">
+                            <span class="current-language">Deutsch</span>
+                            <span class="language-arrow">▼</span>
+                        </summary>
+                        <div class="language-menu">
+                            <a href="https://www.progressive-bytes.com/settleasy/" hreflang="en-US" class="language-option">English (US)</a>
+                            <a href="https://www.progressive-bytes.com/settleasy/gb/" hreflang="en-GB" class="language-option">English (GB)</a>
+                            <span class="language-option active current">Deutsch</span>
+                        </div>
+                    </details>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2025-2026 Progressive Bytes. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
