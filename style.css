@@ -286,7 +286,8 @@ section.download-cta {
 }
 
 /* --- 10. Disclaimer Note --- */
-/* Short "provided as is" line with a link to the full disclaimer (see #disclaimer on the privacy page). */
+/* Short "provided as is" line; the link to the full disclaimer (see #disclaimer on the privacy page)
+   sits centred on its own line below the text. */
 .disclaimer-note {
     max-width: 700px;
     margin: 0 auto 1rem;
@@ -297,6 +298,8 @@ section.download-cta {
 }
 
 .disclaimer-note a {
+    display: block;
+    margin-top: 0.25rem;
     color: var(--link-color);
     text-decoration: none;
     font-weight: 600;
